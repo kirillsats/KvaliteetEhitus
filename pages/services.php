@@ -12,9 +12,11 @@
                 <h3 id="card1-title"></h3>
                 <p id="card1-text"></p>
 
-                <a href="index.php?page=request&lang=<?php echo $lang; ?>" class="service-btn">
-                    Подробнее
+                <a href="index.php?page=request&lang=<?php echo $lang; ?>"
+                   class="service-btn"
+                   id="service-btn1">
                 </a>
+
             </div>
 
         </div>
@@ -27,8 +29,9 @@
                 <h3 id="card2-title"></h3>
                 <p id="card2-text"></p>
 
-                <a href="index.php?page=request&lang=<?php echo $lang; ?>" class="service-btn">
-                    Подробнее
+                <a href="index.php?page=request&lang=<?php echo $lang; ?>"
+                   class="service-btn"
+                   id="service-btn2">
                 </a>
             </div>
 
@@ -42,8 +45,9 @@
                 <h3 id="card3-title"></h3>
                 <p id="card3-text"></p>
 
-                <a href="index.php?page=request&lang=<?php echo $lang; ?>" class="service-btn">
-                    Подробнее
+                <a href="index.php?page=request&lang=<?php echo $lang; ?>"
+                   class="service-btn"
+                   id="service-btn3">
                 </a>
             </div>
 
