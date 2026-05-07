@@ -413,31 +413,53 @@ button:hover,
 }
 
 #request-form input,
+    /* SELECT */
+
 #request-form select {
-    padding: 16px;
-
-    border-radius: 12px;
-
-    border: 1px solid rgba(255,255,255,0.05);
+    appearance: none;
 
     background: rgba(255,255,255,0.05);
 
     color: white;
 
-    font-size: 15px;
+    border: 1px solid rgba(240,195,48,0.4);
 
-    transition: 0.3s;
-}
+    border-radius: 14px;
 
-#request-form input:focus,
-#request-form select:focus {
+    padding: 14px 18px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
     outline: none;
-
-    border-color: #f0c330;
-
-    box-shadow: 0 0 10px rgba(240,195,48,0.3);
 }
 
+/* hover */
+
+#request-form select:hover {
+    border-color: #f0c330;
+}
+
+/* focus */
+
+#request-form select:focus {
+    border-color: #ffd95a;
+
+    box-shadow: 0 0 12px rgba(240,195,48,0.35);
+}
+
+/* OPTIONS */
+
+#request-form option {
+    background: #1b1b1b;
+
+    color: white;
+
+    padding: 12px;
+}
 #request-form input::placeholder {
     color: #aaa;
 }
